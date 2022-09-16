@@ -2,7 +2,13 @@
 :root {
   --primary: #282A35;
 }
-
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none; 
+}
 html,body{
   margin: 0px;
   border: 0px;
