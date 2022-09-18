@@ -53,6 +53,7 @@ svg {
 .main-side {
   border: 2px solid black;
   position: relative;
+  overflow: hidden;
 }
 
 .main-side .table-container {
@@ -172,16 +173,19 @@ select {
 
 #px_grid {
   position: absolute;
-  width:100%;
+  width: 391px;
   height:590px;
-  z-index: 100;
+  z-index: 1;
   margin-left:-12px;
   /* border: solid 1px black; */
 }
 #px_grid tr td{
-  border: solid 1px;
+  border: dotted 1px;
 }
 #px_grid tr {
-  height:60px;
+  height:100px;
+}
+#px_grid td {
+  width:130px;
 }
 /* end demo code style */
